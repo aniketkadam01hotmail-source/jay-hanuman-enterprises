@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jay Hanuman Enterprises</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#c62828;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px 40px;
+color:white;
+}
+
+header img{
+height:60px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:url("truck.jpg") center/cover;
+height:450px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+background:rgba(0,0,0,0.6);
+padding:25px;
+border-radius:10px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+.callbtn{
+display:inline-block;
+background:#c62828;
+color:white;
+padding:12px 20px;
+margin:10px;
+text-decoration:none;
+border-radius:6px;
+}
+
+form input,form textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+form button{
+background:#ff6f00;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.review{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-top:15px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.jpg">
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#fleet">Fleet</a>
+<a href="#booking">Book Truck</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+<h1>Reliable Truck Transport & Logistics Services</h1>
+</section>
+
+<div class="container" id="about">
+
+<h2>About Jay Hanuman Enterprises</h2>
+
+<p>
+Jay Hanuman Enterprises is a trusted transportation service provider
+specializing in truck transport, goods delivery, and logistics services.
+Our fleet ensures safe and fast delivery across cities and states.
+</p>
+
+</div>
+
+<div class="container" id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+🚚 Truck Transport
+<p>Heavy and light truck transport solutions.</p>
+</div>
+
+<div class="card">
+📦 Goods Delivery
+<p>Safe and fast goods transportation.</p>
+</div>
+
+<div class="card">
+🛣 Long Distance Transport
+<p>Reliable interstate and intercity transport.</p>
+</div>
+
+<div class="card">
+🏭 Commercial Logistics
+<p>Efficient logistics for industries.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="container" id="fleet">
+
+<h2>Our Fleet</h2>
+
+<div class="gallery">
+
+<img src="truck.jpg">
+<img src="truck2.jpg">
+<img src="truck3.jpg">
+<img src="fleet.jpg">
+
+</div>
+
+</div>
+
+<div class="container" id="booking">
+
+<h2>Book a Truck</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="tel" placeholder="Phone Number">
+
+<input type="text" placeholder="Pickup Location">
+
+<input type="text" placeholder="Drop Location">
+
+<textarea placeholder="Goods Details"></textarea>
+
+<button>Submit Booking</button>
+
+</form>
+
+</div>
+
+<div class="container">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+Very reliable transport service and on time delivery.
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+Professional drivers and safe goods transport.
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+Best transport service for commercial goods.
+</div>
+
+</div>
+
+<div class="container" id="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>Jay Hanuman Enterprises</strong></p>
+
+<p>📞 9527929801</p>
+<p>📞 9604024923</p>
+
+<a class="callbtn" href="tel:9527929801">Call Now</a>
+<a class="callbtn" href="tel:9604024923">Call Now</a>
+
+<h3>Our Location</h3>
+
+<iframe
+src="https://www.google.com/maps?q=Pune&output=embed"
+width="100%"
+height="300"
+style="border:0;">
+</iframe>
+
+</div>
+
+<footer>
+
+<p>© 2026 Jay Hanuman Enterprises</p>
+<p>Transportation • Logistics • Goods Carrier</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919527929801">
+WhatsApp
+</a>
+
+</body>
+
+</html>
